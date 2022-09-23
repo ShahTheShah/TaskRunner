@@ -1,0 +1,13 @@
+-
+    const
+        title    = 'Главная проекта',
+        nameFile = 'index';
+
+doctype html
+html(lang="en")
+    include partials/head
+    body 
+        include partials/header
+        include partials/main
+        include partials/footer
+        script(src=`@scripts/${nameFile}.min.js`)

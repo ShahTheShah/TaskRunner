@@ -1,0 +1,16 @@
+@use 'sass:map';
+@import 'vendors/_variables';
+@import 'settings/_mixins';
+@import 'settings/_reset';
+@import 'vendors/fonts';
+@import 'settings/setup';
+// Start making up!
+// -----------------------------
+
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';
+
+// -----------------------------
+
+@import 'vendors/adaptive';
